@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- External files path -->
+    <external-files-path
+        name="attendance_files"
+        path="AttendanceTracker/" />
+        
+    <!-- Cache files path -->
+    <cache-path
+        name="attendance_cache"
+        path="." />
+        
+    <!-- External cache path -->
+    <external-cache-path
+        name="attendance_ext_cache"
+        path="." />
+        
+    <!-- External media path -->
+    <external-media-path
+        name="attendance_media"
+        path="." />
+        
+    <!-- Files in the root of internal storage -->
+    <root-path
+        name="root"
+        path="." />
+</paths>

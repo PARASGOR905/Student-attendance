@@ -16,8 +16,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.navArgument
 import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navArgument
 import com.example.student.attendance.AttendanceViewModel
 import com.example.student.attendance.StudentsScreen
 import com.example.student.attendance.TakeAttendanceScreen
@@ -108,8 +108,6 @@ private fun App(
         }
     }
 }
-
-fun composable(string: String, function: () -> Unit) {}
 
 @Preview(showBackground = true)
 @Composable
